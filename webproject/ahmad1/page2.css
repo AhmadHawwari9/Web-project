@@ -1,0 +1,204 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+/*@keyframes anm {*/
+/*25% {background-image: url("imgs/2021-best-cars-Ford-Mustang-hero-mobile.jpg");}*/
+/*    50% {background-image: url("imgs/mclaren_600lt_spider_2019_5k.jpg");}*/
+/*    100%{background-image: url("imgs/erik-mclean-ZRns2R5azu0-unsplash.jpg.jpg");}*/
+/*}*/
+/*.imgs{*/
+/*    background-image:url("imgs/0x0.jpg") ;*/
+/*    position: absolute;*/
+/*    top: 100px;*/
+/*    left:100px;*/
+/*    max-width: 100%;*/
+/*    animation-name: anm;*/
+/*    animation-duration: 10s;*/
+/*    background-size: auto;*/
+/*    animation-delay: 5s;*/
+/*    background-repeat: no-repeat;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    border-radius: 1rem;
+
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width:20%;
+    background: #f1f1f1;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+/* Style the submit button */
+form.example button {
+    border-radius: 1rem;
+
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: #2a2929;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left:810px;
+}
+
+form.example button:hover {
+    background: black;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@font-face {
+    font-family: 'f1';
+    src: url("fonts/TiltPrism-Regular.ttf");
+}
+.srch{
+    position: absolute;
+    right: 600px;
+    top:20px;
+    font-size: 20px;
+
+}
+.name{
+    font-family: f1;
+    padding-left: 30px;
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+    position: fixed;
+    text-decoration: none;
+    color: white;
+}
+/*#carphoto{*/
+/*    height: 800px;*/
+/*    width: 1000px;*/
+/*float: right;*/
+/*    background: url("/imgs/bmw.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: auto;*/
+/*    border-radius: 1rem;*/
+/*}*/
+.anchor1{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+}
+.anchor1:hover{
+    color:#C8B6A6;
+
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    font-size:20px ;
+}
+.anchor:hover{
+    color:#C8B6A6;
+
+}
+
+.label1{
+    position: absolute;
+    left: 270px;
+    top:0px;
+    font-size:50px;
+    color: white;
+
+}
+
+.head1{
+    background-color:#000000;
+    background-repeat: no-repeat;
+    width: 100%;   height: 60px;
+    background-size: cover;
+    margin:-8px;
+    padding-right:20px ;
+    position: fixed;
+    z-index: 999;
+    border-radius:1rem ;
+}
+
+
+/*.h1animate-charcter*/
+/*{*/
+
+/*    text-transform: uppercase;*/
+/*    background-image: linear-gradient(*/
+/*            -225deg,*/
+/*            #8D7B68 100%,*/
+/*            #A4907C 67%,*/
+/*            #C8B6A6 29%,*/
+/*            #F1DEC9 0%*/
+/*    );*/
+/*    background-size: auto auto;*/
+/*    background-clip: border-box;*/
+/*    background-size: 100% auto;*/
+/*    color: #000000;*/
+/*    background-clip: text;*/
+/*    text-fill-color: transparent;*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*    animation: textclip 2s linear infinite;*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    top:50px;*/
+/*    font-size: 30px;*/
+/*}*/
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+body {
+    background: url("imgs/bmw.jpg");
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2a2929;
+}
+footer{
+    text-align: left;
+    padding: 3px;
+    background-color: white;
+
+}
+/*body{
+    background: url("/imgs/bmw.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}*/
+
+.pre1{
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    left: 20px;
+    top: 100px;
+}
